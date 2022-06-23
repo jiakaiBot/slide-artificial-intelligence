@@ -253,9 +253,8 @@ DALL·E是GPT-3的120亿个参数版本（GPT-3的扩展），经过训练，可
 <!-- 
 第二个技术点是GPT-3模型，它是......
 
-不知道大家编程有没有用上GitHub Copilot这一ai工具，
-没有用过的话，建议回去到GitHub Copilot申请页面申请一下。
-这个工具能提高你们的开发效率。
+不知道大家编程有没有用上GitHub Copilot这一ai工具，目前这款工具已经在6月22号正式上线，
+定价为100$/m，如果你通过了GitHub的学生认证，可以免费使用。
 
 GitHub Copilot就用到了GPT-3模型，你刚写了一部分代码或者注释，它就会预测接下来你想要的输入。
 这个工具使用GitHub上所有公开仓库的代码作为训练集。
@@ -268,7 +267,7 @@ class: px-20
 preload: false
 ---
 
-# 四.Diffusion(扩散模型)
+# 四.Diffusion(扩散模型)P
 
 ## 1.原理
 
@@ -479,7 +478,7 @@ preload: false
 
 - [云幻灯片链接](https://slide-ai.gujiakai.top)<br/>
 - [汇报补充资料链接](https://flowus.cn/jiakai/share/793c503c-2e38-492d-b725-6d11bf3062da)<br/>
-- [项目源文件链接](https://gitee.com/gujiakai/artificial-intelligence)
+- [项目源文件链接](https://gitee.com/gujiakai/artificial-intelligence-homework)
 
 </div>
 </div>
