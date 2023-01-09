@@ -2,10 +2,10 @@
 # 标题
 titleTemplate: "人工智能课程汇报"
 # 图标
-favicon: "/images/favicon.png"
+favicon: "https://vip2.loli.io/2023/01/09/Q5YiyKZMHTWJqnR.webp"
 theme: seriph
 # 背景图像
-background: /images/portrait-of-edmond-belamy.webp
+background: https://vip2.loli.io/2023/01/09/ifgmXNzSOF9Jp2V.webp
 # apply any windi css classes to the current slide
 class: 'text-center'
 # https://sli.dev/custom/highlighters.html
@@ -77,7 +77,7 @@ preload: false
 </div>
 <div>
 
-<img src="/images/warriors.webp" class="absolute bottom-15 right-20 w-65">
+<img src="https://vip2.loli.io/2023/01/09/F4VWxiMuQ1rOB72.webp" class="absolute bottom-15 right-20 w-65">
 
 <div v-if="$slidev.nav.currentPage === 2"
   v-motion
@@ -136,7 +136,7 @@ preload: false
 
 结果，根据爸爸的描述，小明在动物园里轻松地找到了斑马。
 
-<img src="/images/zebro.webp" class="absolute bottom-30 right-15 w-100">
+<img src="https://vip2.loli.io/2023/01/09/lXhsMoxgHRfaJUQ.webp" class="absolute bottom-30 right-15 w-100">
 
 <div v-if="$slidev.nav.currentPage === 3"
   v-motion
@@ -168,7 +168,7 @@ preload: false
 
 ---
 layout: image-right
-image: /images/dalle.webp
+image: https://vip2.loli.io/2023/01/09/4vdMFzhrs9LPoYq.webp
 preload: false
 ---
 
@@ -181,7 +181,7 @@ OpenAI的DALL· E、DALL·E 2、Google Brain的Imagen就采用了零样本学习
 
 如你输入的文本提示信息为——“穿着太空服的浣熊”，这在现实世界中并不存在，但模型会将太空服、浣熊的特征进行整合，生成文本提示信息对应的图像。
 
-<img src="/images/raccoon.webp" class="absolute bottom-8 left-60 w-35">
+<img src="https://vip2.loli.io/2023/01/09/x8Njv6VZKkQtwDP.webp" class="absolute bottom-8 left-60 w-35">
 
 <div
   v-if="$slidev.nav.currentPage === 4"
@@ -227,7 +227,7 @@ GPT-3(Generative Pre-trained Transformer 3)，是一个源自OpenAI的自回归�
 </div>
 <div>
 
-<img src="/images/github-copilot.webp" class="absolute bottom-15 right-95 h-20">
+<img src="https://vip2.loli.io/2023/01/09/Wrv72J6X5UDw914.webp" class="absolute bottom-15 right-95 h-20">
 
 <div
   v-if="$slidev.nav.currentPage === 5"
@@ -284,7 +284,7 @@ preload: false
 存在一系列高斯噪声（T轮），将输入图片x<sub>0</sub>变为高斯噪声x<sub>T</sub>，而扩散模型负责将x<sub>T</sub>复原回图片x<sub>0</sub>。
 要强调的是，扩散模型中噪声x<sub>T</sub>与图片x<sub>0</sub>是同维度的。
 
-<img src="/images/diffusion.webp" class="absolute bottom-35 w-100">
+<img src="https://vip2.loli.io/2023/01/09/iWue2SsrFULaKMd.webp" class="absolute bottom-35 w-100">
 
 <div v-if="$slidev.nav.currentPage === 6"
   v-motion
@@ -307,7 +307,7 @@ preload: false
 
 接着用扩散模型复原图像，当扩散模型复原图像时，学习的过程发生了，它会尽可能创建一个逼近原图像的图像，故扩散模型也被称为生成模型。
 
-<img src="/images/diffusion-demo.webp" class="absolute bottom-20 w-100">
+<img src="https://vip2.loli.io/2023/01/09/XwPNmd4thDnoekC.webp" class="absolute bottom-20 w-100">
 
 <div v-if="$slidev.nav.currentPage === 6"
   v-motion
@@ -343,7 +343,7 @@ DALL·E 2使用了扩散模型，从一个点开始，以越来越多的细节�
 
 Google Brain的Imagen模型不仅包含了扩散生成模型的部分，还包含超分辨率扩散模型，利用该模型可以实现增加图像的分辨率。
 
-<img src="/images/diffusion-gif.gif" class="absolute bottom-20 w-50 left-60">
+<img src="https://vip2.loli.io/2023/01/09/AucgfWULrRPzH7m.gif" class="absolute bottom-20 w-50 left-60">
 
 <div v-if="$slidev.nav.currentPage === 7"
   v-motion
@@ -363,7 +363,7 @@ Google Brain的Imagen模型不仅包含了扩散生成模型的部分，还包�
 </div>
 <div>
 
-<img src="/images/imagen-structure.webp" class="absolute bottom-20 w-100 right-20">
+<img src="https://vip2.loli.io/2023/01/09/K43W1BkjnYblD8z.webp" class="absolute bottom-20 w-100 right-20">
 
 <div v-if="$slidev.nav.currentPage === 7"
   v-motion
@@ -411,7 +411,7 @@ preload: false
               delay:3000,
           }}" 
   >
-<img src="/images/beautiful-girl.webp" class="absolute bottom-15 w-70">
+<img src="https://vip2.loli.io/2023/01/09/BJW5Q6jClFHc48z.webp" class="absolute bottom-15 w-70">
 </div>
 
 
@@ -469,7 +469,7 @@ preload: false
 
 文本转图像技术的意义在于，它使我们任何人都能够指挥机器，想象我们希望它看到的信息。文本提示信息消除了想法和图像之间的障碍，最终消除了视频、动画和整个虚拟世界之间的障碍。
 
-<img src="/images/ai-artist.webp" class="absolute bottom-12 w-100 left-15">
+<img src="https://vip2.loli.io/2023/01/09/rlqf2sFHUwY4eyh.webp" class="absolute bottom-12 w-100 left-15">
 
 <div v-if="$slidev.nav.currentPage === 9"
   v-motion
@@ -548,7 +548,7 @@ preload: false
 </div>
 <div>
 
-<img src="/images/domo.webp" class="absolute bottom-3 w-60 right-40">
+<img src="https://vip2.loli.io/2023/01/09/ZNpUFzlkWi7Hrdu.webp" class="absolute bottom-3 w-60 right-40">
 
 </div>
 </div>
