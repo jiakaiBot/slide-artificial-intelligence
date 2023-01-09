@@ -2,10 +2,10 @@
 # 标题
 titleTemplate: "人工智能课程汇报"
 # 图标
-favicon: "https://static.gujiakai.top/static/slide/deep-learning/images/favicon.png"
+favicon: "/images/favicon.png"
 theme: seriph
 # 背景图像
-background: https://static.gujiakai.top/static/slide/artificial-intelligence/images/portrait-of-edmond-belamy.webp
+background: /images/portrait-of-edmond-belamy.webp
 # apply any windi css classes to the current slide
 class: 'text-center'
 # https://sli.dev/custom/highlighters.html
@@ -41,7 +41,7 @@ download: true
   <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon:edit />
   </button>
-  <a href="https://github.com/gujiakai-dev/slide-artificial-intelligence" target="_blank" alt="GitHub"
+  <a href="https://github.com/jiakaiBot/slide-artificial-intelligence" target="_blank" alt="GitHub"
     class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
   </a>
@@ -77,7 +77,7 @@ preload: false
 </div>
 <div>
 
-<img src="https://static.gujiakai.top/static/slide/artificial-intelligence/images/warriors.webp" class="absolute bottom-15 right-20 w-65">
+<img src="/images/warriors.webp" class="absolute bottom-15 right-20 w-65">
 
 <div v-if="$slidev.nav.currentPage === 2"
   v-motion
@@ -136,7 +136,7 @@ preload: false
 
 结果，根据爸爸的描述，小明在动物园里轻松地找到了斑马。
 
-<img src="https://static.gujiakai.top/static/slide/artificial-intelligence/images/zebro.webp" class="absolute bottom-30 right-15 w-100">
+<img src="/images/zebro.webp" class="absolute bottom-30 right-15 w-100">
 
 <div v-if="$slidev.nav.currentPage === 3"
   v-motion
@@ -168,7 +168,7 @@ preload: false
 
 ---
 layout: image-right
-image: https://static.gujiakai.top/static/slide/artificial-intelligence/images/dalle.webp
+image: /images/dalle.webp
 preload: false
 ---
 
@@ -181,7 +181,7 @@ OpenAI的DALL· E、DALL·E 2、Google Brain的Imagen就采用了零样本学习
 
 如你输入的文本提示信息为——“穿着太空服的浣熊”，这在现实世界中并不存在，但模型会将太空服、浣熊的特征进行整合，生成文本提示信息对应的图像。
 
-<img src="https://static.gujiakai.top/static/slide/artificial-intelligence/images/raccoon.webp" class="absolute bottom-8 left-60 w-35">
+<img src="/images/raccoon.webp" class="absolute bottom-8 left-60 w-35">
 
 <div
   v-if="$slidev.nav.currentPage === 4"
@@ -227,7 +227,7 @@ GPT-3(Generative Pre-trained Transformer 3)，是一个源自OpenAI的自回归�
 </div>
 <div>
 
-<img src="https://static.gujiakai.top/static/slide/artificial-intelligence/images/github-copilot.webp" class="absolute bottom-15 right-95 h-20">
+<img src="/images/github-copilot.webp" class="absolute bottom-15 right-95 h-20">
 
 <div
   v-if="$slidev.nav.currentPage === 5"
@@ -284,7 +284,7 @@ preload: false
 存在一系列高斯噪声（T轮），将输入图片x<sub>0</sub>变为高斯噪声x<sub>T</sub>，而扩散模型负责将x<sub>T</sub>复原回图片x<sub>0</sub>。
 要强调的是，扩散模型中噪声x<sub>T</sub>与图片x<sub>0</sub>是同维度的。
 
-<img src="https://static.gujiakai.top/static/slide/artificial-intelligence/images/diffusion.webp" class="absolute bottom-35 w-100">
+<img src="/images/diffusion.webp" class="absolute bottom-35 w-100">
 
 <div v-if="$slidev.nav.currentPage === 6"
   v-motion
@@ -307,7 +307,7 @@ preload: false
 
 接着用扩散模型复原图像，当扩散模型复原图像时，学习的过程发生了，它会尽可能创建一个逼近原图像的图像，故扩散模型也被称为生成模型。
 
-<img src="https://static.gujiakai.top/static/slide/artificial-intelligence/images/diffusion-demo.webp" class="absolute bottom-20 w-100">
+<img src="/images/diffusion-demo.webp" class="absolute bottom-20 w-100">
 
 <div v-if="$slidev.nav.currentPage === 6"
   v-motion
@@ -343,7 +343,7 @@ DALL·E 2使用了扩散模型，从一个点开始，以越来越多的细节�
 
 Google Brain的Imagen模型不仅包含了扩散生成模型的部分，还包含超分辨率扩散模型，利用该模型可以实现增加图像的分辨率。
 
-<img src="https://static.gujiakai.top/static/slide/artificial-intelligence/images/diffusion-gif.gif" class="absolute bottom-20 w-50 left-60">
+<img src="/images/diffusion-gif.gif" class="absolute bottom-20 w-50 left-60">
 
 <div v-if="$slidev.nav.currentPage === 7"
   v-motion
@@ -363,7 +363,7 @@ Google Brain的Imagen模型不仅包含了扩散生成模型的部分，还包�
 </div>
 <div>
 
-<img src="https://static.gujiakai.top/static/slide/artificial-intelligence/images/imagen-structure.webp" class="absolute bottom-20 w-100 right-20">
+<img src="/images/imagen-structure.webp" class="absolute bottom-20 w-100 right-20">
 
 <div v-if="$slidev.nav.currentPage === 7"
   v-motion
@@ -411,7 +411,7 @@ preload: false
               delay:3000,
           }}" 
   >
-<img src="https://static.gujiakai.top/static/slide/artificial-intelligence/images/beautiful-girl.webp" class="absolute bottom-15 w-70">
+<img src="/images/beautiful-girl.webp" class="absolute bottom-15 w-70">
 </div>
 
 
@@ -469,7 +469,7 @@ preload: false
 
 文本转图像技术的意义在于，它使我们任何人都能够指挥机器，想象我们希望它看到的信息。文本提示信息消除了想法和图像之间的障碍，最终消除了视频、动画和整个虚拟世界之间的障碍。
 
-<img src="https://static.gujiakai.top/static/slide/artificial-intelligence/images/ai-artist.webp" class="absolute bottom-12 w-100 left-15">
+<img src="/images/ai-artist.webp" class="absolute bottom-12 w-100 left-15">
 
 <div v-if="$slidev.nav.currentPage === 9"
   v-motion
@@ -495,7 +495,7 @@ preload: false
 
 不要抗拒AI的未来，因为AI就是未LAI。
 
-- [云幻灯片链接](https://slide-ai.gujiakai.top)<br/>
+- [云幻灯片链接](https://slide-artificial-intelligence.netlify.app/)<br/>
 - [汇报补充资料链接](https://flowus.cn/jiakai/share/793c503c-2e38-492d-b725-6d11bf3062da)<br/>
 - [项目源文件链接](https://gitee.com/gujiakai/artificial-intelligence-homework)
 
@@ -548,7 +548,7 @@ preload: false
 </div>
 <div>
 
-<img src="https://static.gujiakai.top/static/slide/artificial-intelligence/images/domo.webp" class="absolute bottom-3 w-60 right-40">
+<img src="/images/domo.webp" class="absolute bottom-3 w-60 right-40">
 
 </div>
 </div>
